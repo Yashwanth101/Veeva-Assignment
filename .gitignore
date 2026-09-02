@@ -3,9 +3,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Ignore everything in reports, screenshots, logs
-/reports/*
-!/reports/.gitkeep
+# Ignore reports, screenshots, logs in ALL modules
+*/reports/*
+*/logs/*
+*/screenshots/*
+!**/.gitkeep
+!**/.gitKeep
 
 /logs/*
 !/logs/.gitkeep
