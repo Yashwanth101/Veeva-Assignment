@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Derived Product 1 Suite">
+    <test name="DP1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="dp1Url"/>
+        <classes>
+            <class name="com.company.tests.DP1Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Core Product Suite">
+    <test name="CP1">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="cpUrl"/>
+        <classes>
+            <class name="com.company.tests.CP1Test"/>
+        </classes>
+    </test>
+    <test name="CP2" >
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="cpUrl"></parameter>
+        <classes>
+            <class name="com.company.tests.CP2Test"></class>
+        </classes>
+    </test>
+</suite>
